@@ -13,7 +13,6 @@ nav {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	background-color: white;
 	position: sticky;
 	top: 0;
 }
