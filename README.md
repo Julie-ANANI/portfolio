@@ -1,6 +1,6 @@
 # Bienvenue sur le repo de mon Portfolio
 
-Ce projet est mon premier portfolio coder en node.js et express.js
+Ce projet est mon premier portfolio coder en Node.js et Express.js
 # Stack technique
 
 - [Node.js - 14](https://nodejs.org/en/download/)
