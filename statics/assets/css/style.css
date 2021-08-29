@@ -1,12 +1,19 @@
 body {
   font-family: Montserrat, sans-serif;
   color: #fff;
-  background-color: rgb(14, 98, 255);
+  background-color: rgb(3, 236, 108);
+  padding: 0 2%;
+	margin: 0;
 }
 
 h1 {
-  font-size: 130px;
+  font-size: 100px;
 }
+
+h2 {
+  font-size: 50px;
+}
+
 
 nav {
 	display: flex;
@@ -17,3 +24,29 @@ nav {
 	top: 0;
 }
 
+nav .profile {
+	display: flex;
+	align-items: center;
+}
+
+nav .profile h1 {
+	margin-left: 10px;
+	font-size: 15px;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+nav ul li {
+	margin-left: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+nav ul li:hover {
+	border-bottom-color: #000;
+}
+
+.presentation .presentation-image img {
+	width: 60%;
+	height: 100%;
+}
