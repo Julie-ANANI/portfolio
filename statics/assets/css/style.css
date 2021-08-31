@@ -6,13 +6,8 @@ body {
 	margin: 0;
 }
 
-h1 {
-  font-size: 100px;
-}
 
-h2 {
-  font-size: 50px;
-}
+
 /* Navigation bar */
 nav {
 	display: flex;
@@ -23,32 +18,43 @@ nav {
 	top: 0;
 }
 
-/* nav .profile {
-	display: flex;
-	align-items: center;
-} */
-
-/* .presentation h1 {
-	margin-left: 10px;
-	font-size: 15px;
-} */
 nav ul {
 	display: flex;
 	list-style-type: none;
 }
+
 nav ul li {
 	margin-left: 20px;
 	cursor: pointer;
 	border-bottom: 1px solid #fff;
 }
+
 nav ul li:hover {
 	border-bottom-color: #000;
 }
-
 /* End navigation bar */
 
+
+
+/* Header */
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 50px;
+}
 .presentation .presentation-image img {
 	width: 100%;
 	height: 100%;
 }
+/* End Header */
 
+
+/* Main section */
+/* End Main section */
+
+
+
+/* Footer */
+/* End footer */
