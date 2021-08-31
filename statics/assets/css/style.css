@@ -13,8 +13,7 @@ h1 {
 h2 {
   font-size: 50px;
 }
-
-
+/* Navigation bar */
 nav {
 	display: flex;
 	flex-wrap: wrap;
@@ -45,6 +44,8 @@ nav ul li {
 nav ul li:hover {
 	border-bottom-color: #000;
 }
+
+/* End navigation bar */
 
 .presentation .presentation-image img {
 	width: 100%;
