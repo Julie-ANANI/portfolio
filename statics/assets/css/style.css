@@ -11,6 +11,8 @@ body {
 }
 /* End Container */
 
+
+
 /* Navigation bar */
 nav {
   display:flex;
@@ -63,13 +65,11 @@ nav ul li:hover {
     font-size: 27px;
   }
 }
-
 /* End navigation bar */
 
 
 
 /* Header */
-
 header {
   display: flex;
   flex-direction: column;
@@ -116,11 +116,19 @@ header button {
 
 
 /* Main section */
-.main .presentation-image img {
+.main .projects_project_image img {
 	width: 50%;
 }
 /* End Main section */
 
+
+
+/* Projects */
+.projects_project{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* End Projects */
 
 
 /* Footer */
