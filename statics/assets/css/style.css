@@ -116,7 +116,7 @@ header button {
 
 
 /* Main section */
-.main .projects_project_image img {
+.main .projects_card_image {
 	width: 50%;
 }
 /* End Main section */
@@ -124,9 +124,18 @@ header button {
 
 
 /* Projects */
-.projects_project{
+.projects{
   display: flex;
   flex-wrap: wrap;
+}
+
+.projects .projects_card{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.projects .projects_card_image{
+  width: 350px;
 }
 /* End Projects */
 
