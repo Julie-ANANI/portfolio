@@ -1,9 +1,42 @@
 body {
   font-family: Montserrat, sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   background-color: rgba(255, 245, 245, 0.7);
 	margin: 0;
 }
+
+.color-change-2x {
+  -webkit-animation: color-change-2x 7s linear infinite alternate both;
+          animation: color-change-2x 3s linear infinite alternate both;
+}
+
+
+/* Animation */
+/**
+ * ----------------------------------------
+ * animation color-change-2x
+ * ----------------------------------------
+ */
+ @-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+
+
+
+
 
 /* Container */
 .container {
@@ -87,7 +120,9 @@ header h1 {
 header  p {
   display: flex;
   justify-content: center;
-/*   margin: 2px; */
+  align-items: center;
+  font-size: 22px;
+
 }
 
 header button {
