@@ -212,6 +212,22 @@ header button {
   line-height: 1.4em;
 }
 
+@media screen and (max-width: 700px) {
+  .projects{
+    display: flex;
+    justify-content:center; 
+    align-items:center;
+    background-color: green;
+  }
+  
+  .projects .projects_card_img {
+    width: 40vh;
+    height: 40vh;
+  }
+
+  
+}
+
 /* End Projects */
 
 /* Video presentation */
@@ -231,9 +247,11 @@ header button {
 }
 /* End Video presentation */
 
+
+
 /* Footer */
 footer {
-  margin-top: 20vh;
+  margin-top: 10vh;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   padding: 30px;
@@ -241,9 +259,8 @@ footer {
   flex-wrap:wrap;
   justify-content: space-around;
   width: 100vW;
-  height: 30 vh;
+  height: 30vh;
 }
-
 
 footer .copyright {
   text-align: center;
