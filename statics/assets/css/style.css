@@ -35,17 +35,6 @@ body {
 }
 
 
-
-
-
-/* Container */
-.container {
-  padding: 2%;
-}
-/* End Container */
-
-
-
 /* Navigation bar */
 nav {
   display:flex;
@@ -110,6 +99,7 @@ header {
   flex-direction: column;
   justify-content:center;
   align-items:center;
+  margin: 10vh;
 } 
 header h1 {
   margin: 35px;
@@ -161,6 +151,7 @@ header button {
   flex-direction:column;
   justify-content:space-between;
   align-items:center; 
+  margin: 10vh;
 }
 /* End Main section */
 
@@ -214,7 +205,7 @@ header button {
   margin-top: 1rem;
   font-weight: 300;
   font-size: 17px;
-  width: 70vh;
+  width: 60vh;
   line-height: 1.4em;
 }
 
@@ -226,6 +217,7 @@ header button {
   width: 90%;
   display: flex;
   justify-content: center;
+  margin-bottom: 15vh;
 }
 
 .main .video iframe{
@@ -237,5 +229,16 @@ header button {
 /* End Video presentation */
 
 /* Footer */
-
+footer {
+  margin-top: 20vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  width: 100vW;
+  height: 20vH;
+  z-index: 10;
+  padding: 20px;
+}
 /* End footer */
