@@ -60,11 +60,13 @@ nav {
 
 nav h2{
   color: rgb(0, 0, 0);
+  font-weight: 900;
 }
 
 nav ul {
 	display: flex;
   font-size: 20px;
+  font-weight: 500;
 /* 	list-style-type: none; */
 }
 
@@ -135,12 +137,13 @@ header button {
 
 @media screen and (max-width: 700px) {
   header h1 {
-    font-size: 35px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.4em;
   }
   header  p {
-    height: 80px;
+    height: 100px;
     width: 90%;
-    background-color: aquamarine;
     display: flex;
     justify-content: center;
     font-size: 20px;
@@ -156,8 +159,8 @@ header button {
   margin-top: 80px;
   display:flex;
   flex-direction:column;
-  justify-content:center;
-  align-items:center;
+  justify-content:space-between;
+  align-items:center; 
 }
 /* End Main section */
 
@@ -170,26 +173,20 @@ header button {
 }
 
 .projects .projects_card{
-  margin-right: 4em;
   cursor: pointer;
 }
 
 .projects .projects_card_img{
   width: 60vh;
   height:60vh;
-  background-color: rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
 }
 
 .projects .projects_card .projects_infos .projects_card_dates{
   display: flex;
   flex-wrap:wrap; 
-  /* justify-content: space-between; */
 }
-
-/* .projects_card_title {
-  margin-top: 3rem;
-  font-weight: 900;
-} */
 
 .projects_infos {
   margin-top: 3rem;
@@ -207,6 +204,12 @@ header button {
   font-weight: 600;
 }
 
+.projects_card_repository {
+  margin-top: 1rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
 .projects_card_description {
   margin-top: 1rem;
   font-weight: 300;
@@ -217,6 +220,22 @@ header button {
 
 /* End Projects */
 
+/* Video presentation */
+.main .video{
+  margin-top: 80px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.main .video iframe{
+  border:none;
+  border-radius: 10px;
+  width: 140vh;
+  height: 70vh;
+}
+/* End Video presentation */
 
 /* Footer */
+
 /* End footer */
