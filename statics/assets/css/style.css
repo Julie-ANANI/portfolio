@@ -148,10 +148,9 @@ header button {
 .main {
   margin-top: 80px;
   display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  align-items:center; 
-  margin: 10vh;
+  flex-direction:column; 
+  justify-content:space-between; 
+  align-items:center;  
 }
 /* End Main section */
 
@@ -161,27 +160,25 @@ header button {
 .projects{
   display: flex;
   flex-wrap: wrap;
-}
-
-.projects .projects_card{
-  cursor: pointer;
+  justify-content:space-between;
+  /* align-items:center; */
+  background-color: red;
+  margin: 0.5vw;
 }
 
 .projects .projects_card_img{
-  width: 60vh;
-  height:60vh;
+  margin: 1vw;
+  width: 50vh;
+  height:50vh;
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
-}
-
-.projects .projects_card .projects_infos .projects_card_dates{
-  display: flex;
-  flex-wrap:wrap; 
+  cursor: pointer;
 }
 
 .projects_infos {
+  margin: 1vw;
   margin-top: 3rem;
-  width: 70vh;
+  width: 50vh;
 }
 
 .projects_card_title {
@@ -205,7 +202,7 @@ header button {
   margin-top: 1rem;
   font-weight: 300;
   font-size: 17px;
-  width: 60vh;
+  width: 50vh;
   line-height: 1.4em;
 }
 
@@ -240,5 +237,34 @@ footer {
   height: 20vH;
   z-index: 10;
   padding: 20px;
+}
+
+footer .services{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+footer ul {
+	display: flex;
+  font-weight: 500;
+	/* list-style-type: none; */
+}
+
+footer ul li {
+  color: rgb(0, 0, 0);
+	margin-left: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+
+footer ul li:hover {
+	border-bottom-color: #000;
+}
+
+
+
+footer .copyright {
+  text-align: center;
 }
 /* End footer */
