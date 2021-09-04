@@ -110,7 +110,7 @@ header {
   align-items:center;
 } 
 header h1 {
-  margin: 40px;
+  margin: 35px;
   /* padding-bottom: 2%; */
   /* display: flex;
   justify-content: center; */
@@ -120,9 +120,9 @@ header h1 {
 
 header  p {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 22px;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 21px;
 
 }
 
@@ -152,37 +152,69 @@ header button {
 
 
 /* Main section */
-.main .projects_card_image {
-	width: 50%;
-}
-/* End Main section */
-
-
-
-/* Projects */
-
-.main{
+.main {
   margin-top: 80px;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
 }
+/* End Main section */
 
 
+
+/* Projects */
 .projects{
   display: flex;
   flex-wrap: wrap;
 }
 
 .projects .projects_card{
-  margin-right: 20px;
+  margin-right: 4em;
   cursor: pointer;
 }
 
-.projects .projects_card_image{
-  width: 350px;
+.projects .projects_card_img{
+  width: 60vh;
+  height:60vh;
+  background-color: rgb(255, 255, 255)
 }
+
+.projects .projects_card .projects_infos .projects_card_dates{
+  display: flex;
+  flex-wrap:wrap; 
+  /* justify-content: space-between; */
+}
+
+/* .projects_card_title {
+  margin-top: 3rem;
+  font-weight: 900;
+} */
+
+.projects_infos {
+  margin-top: 3rem;
+  width: 70vh;
+}
+
+.projects_card_title {
+  margin-top: 2rem;
+  font-size: 20px; 
+  font-weight: 900;
+
+}
+.projects_card_dates {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.projects_card_description {
+  margin-top: 1rem;
+  font-weight: 300;
+  font-size: 17px;
+  width: 70vh;
+  line-height: 1.4em;
+}
+
 /* End Projects */
 
 
